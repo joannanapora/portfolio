@@ -1,21 +1,18 @@
 import React from "react";
 import "./custom-button.css";
-import { Link } from "react-router-dom";
 
-const STYLES = ["btn--primary", "btn--outline", "btn--test"];
+const STYLES = ["btn--primary", "btn--round", "btn--test"];
 
 const SIZES = ["btn--medium", "btn--large"];
 
 export const CustomButton = ({
   children,
   type,
-  onClick,
   buttonStyle,
   buttonSize,
 }: {
   children: any;
   type: any;
-  onClick: () => void;
   buttonStyle: string;
   buttonSize: string;
 }) => {
@@ -25,15 +22,12 @@ export const CustomButton = ({
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
   return (
-    <Link to="/sign-up" className="btn-mobile">
-      <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={onClick}
-        type={type}
-      >
-        {children}
-      </button>
-    </Link>
+    <button
+      className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+      type={type}
+    >
+      {children}
+    </button>
   );
 };
 

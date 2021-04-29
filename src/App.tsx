@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import NavBar from "./nav-bar/nav-bar";
 import "./App.css";
-import Links from "./links/links";
 import Home from "./home/home";
 import Projects from "./projects/projects";
 import About from "./about/about";
@@ -15,7 +14,6 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/links" component={Links} />
           <Route path="/projects" component={Projects} />
         </Switch>
       </BrowserRouter>

@@ -26,11 +26,7 @@ const Nav = () => {
               HOME
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/links" className="nav-links" onClick={closeMobileMenu}>
-              LINKS
-            </Link>
-          </li>
+
           <li className="nav-item">
             <Link
               to="/projects"
