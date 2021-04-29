@@ -21,9 +21,7 @@ const About = () => {
       <div className="img-info">
         <h1>Hello!</h1>
         <p>
-          My name is Joanna. I'm 27 years old.
-          <br />
-          I live in Manchester.
+          My name is Joanna. I'm 27 years old. I live in Manchester.
           <br />
           <br />
           I have been programming for about 10 months now and I don't slow down
@@ -39,9 +37,6 @@ const About = () => {
           At this point, my goal and dream is to gain my first experience in the
           IT industry, I am open to any form of learning through work, including
           apprenticeships, internships and junior positions.
-          <br />
-          <br />
-          Thank you for visiting my website!
         </p>
         <div className="btn-cont">
           <Link to="resume.pdf" target="_blank" download>
@@ -54,6 +49,34 @@ const About = () => {
               DOWNLOAD RESUME
             </CustomButton>
           </Link>
+        </div>
+        <div className="social-container">
+          <div className="social-wrapper">
+            <a target="_blank" href="https://www.facebook.com/p0rczi">
+              <div className="iconca">
+                <div className="tooltip">Facebook</div>
+                <span>
+                  <FontAwesomeIcon className="fa-social" icon={faFacebookF} />
+                </span>
+              </div>
+            </a>
+            <a target="_blank" href="https://github.com/joannanapora">
+              <div className="iconca">
+                <div className="tooltip"> GitHub</div>
+                <span>
+                  <FontAwesomeIcon className="fa-social" icon={faGithub} />
+                </span>
+              </div>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/joanna-napora">
+              <div className="iconca">
+                <div className="tooltip">LinkedIn</div>
+                <span>
+                  <FontAwesomeIcon className="fa-social" icon={faLinkedin} />
+                </span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <img
