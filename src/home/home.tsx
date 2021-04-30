@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="introduction">
       <h1 className="head1">HI, I'M JOANNA!</h1>
-      <RoleBaner className="jrd" />
+      <RoleBaner data-testid="banner" className="jrd" />
       <h3 className="head2">"git checkout -b build/new-career-path"</h3>
     </div>
   );

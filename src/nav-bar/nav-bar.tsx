@@ -11,13 +11,21 @@ const Nav = () => {
   const closeMobileMenu = () => setClick(false);
 
   return (
-    <nav className={window.scrollY > 300 ? "navbar-scrolled" : "navbar"}>
+    <nav className="navbar">
       <div className="navbar-container">
         <div className="menu-icon" onClick={handleClick}>
           {click ? (
-            <FontAwesomeIcon className="x-btn" icon={faTimes} />
+            <FontAwesomeIcon
+              data-testid="x-btn"
+              className="x-btn"
+              icon={faTimes}
+            />
           ) : (
-            <FontAwesomeIcon className="hamburger-btn" icon={faBars} />
+            <FontAwesomeIcon
+              data-testid="hamburger-btn"
+              className="hamburger-btn"
+              icon={faBars}
+            />
           )}
         </div>
         <ul className={click ? "menu active" : "menu"}>

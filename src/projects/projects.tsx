@@ -119,9 +119,7 @@ const Projects = () => {
         <h1 className="project-header">Data Display</h1>
         <div className="text1">
           <div className="text-content">
-            <h1 className="title">
-              "Cointify" Website displaying data charts using REST API.
-            </h1>
+            <h1 className="title">Project in progress...</h1>
             <div className="body-text">(...)</div>
           </div>
         </div>

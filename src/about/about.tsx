@@ -12,10 +12,6 @@ import {
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
-  const downloadCV = () => {
-    window.location.href = "./assets/RESUME JN.pdf";
-  };
-
   return (
     <div className="wrapper">
       <div className="img-info">
@@ -53,7 +49,7 @@ const About = () => {
         <div className="social-container">
           <div className="social-wrapper">
             <a target="_blank" href="https://www.facebook.com/p0rczi">
-              <div className="iconca">
+              <div className="iconca" data-testid="facebook">
                 <div className="tooltip">Facebook</div>
                 <span>
                   <FontAwesomeIcon className="fa-social" icon={faFacebookF} />
@@ -61,7 +57,7 @@ const About = () => {
               </div>
             </a>
             <a target="_blank" href="https://github.com/joannanapora">
-              <div className="iconca">
+              <div className="iconca" data-testid="github">
                 <div className="tooltip"> GitHub</div>
                 <span>
                   <FontAwesomeIcon className="fa-social" icon={faGithub} />
@@ -69,7 +65,7 @@ const About = () => {
               </div>
             </a>
             <a target="_blank" href="https://www.linkedin.com/in/joanna-napora">
-              <div className="iconca">
+              <div className="iconca" data-testid="linkedin">
                 <div className="tooltip">LinkedIn</div>
                 <span>
                   <FontAwesomeIcon className="fa-social" icon={faLinkedin} />
@@ -80,6 +76,7 @@ const About = () => {
         </div>
       </div>
       <img
+        data-testid="image"
         className="img-me"
         alt="Janna Napora"
         src="https://scontent-lcy1-1.xx.fbcdn.net/v/t1.6435-9/70026149_2390413564340730_1361607901025665024_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=84a396&_nc_ohc=nyAsCWIHapgAX-n9AxI&_nc_ht=scontent-lcy1-1.xx&oh=da7fc87c5c00b979861c239bbbeb7850&oe=60AE3048"
