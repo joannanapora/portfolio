@@ -46,10 +46,10 @@ const Projects = () => {
           <div className="text-content">
             <h1 className="title">React/Typescript</h1>
             <div className="body-text">
-              <p>{dot()}React Router</p>
-              <p>{dot()}SASS</p>
-              <p>{dot()}Jest</p>
-              <p>{dot()}React Testing Library</p>
+              <p>• drawing random pairs of cards</p>
+              <p>• shuffling cards</p>
+              <p>• revealing only two cards at a time</p>
+              <p>• matched cards dissapear</p>
               <a
                 className="project-link"
                 target="_blank"
@@ -100,8 +100,26 @@ const Projects = () => {
         <h1 className="project-header">Sudoku Game</h1>
         <div className="text1">
           <div className="text-content">
-            <h1 className="title">Project in progress...</h1>
-            <div className="body-text">(...)</div>
+            <h1 className="title">React/Typescript</h1>
+            <div className="body-text">
+              <p>• generate board with initial numbers</p>
+              <p>• cleaning checked field</p>
+              <p>• restarting game</p>
+              <p>• checking player's solution</p>
+              <a
+                className="project-link"
+                target="_blank"
+                href="https://sudoku-game-jo.herokuapp.com/"
+              >
+                GO TO PROJECT
+              </a>
+              <FontAwesomeIcon
+                size="1x"
+                color="#fff"
+                icon={faHandPointer}
+                style={{ marginTop: "-10px" }}
+              />
+            </div>
           </div>
         </div>
         <Arrow />
