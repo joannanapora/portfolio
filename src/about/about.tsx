@@ -48,7 +48,11 @@ const About = () => {
         </div>
         <div className="social-container">
           <div className="social-wrapper">
-            <a target="_blank" href="https://www.facebook.com/p0rczi">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/p0rczi"
+            >
               <div className="iconca" data-testid="facebook">
                 <div className="tooltip">Facebook</div>
                 <span>
@@ -56,7 +60,11 @@ const About = () => {
                 </span>
               </div>
             </a>
-            <a target="_blank" href="https://github.com/joannanapora">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/joannanapora"
+            >
               <div className="iconca" data-testid="github">
                 <div className="tooltip"> GitHub</div>
                 <span>
@@ -64,7 +72,11 @@ const About = () => {
                 </span>
               </div>
             </a>
-            <a target="_blank" href="https://www.linkedin.com/in/joanna-napora">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/joanna-napora"
+            >
               <div className="iconca" data-testid="linkedin">
                 <div className="tooltip">LinkedIn</div>
                 <span>
