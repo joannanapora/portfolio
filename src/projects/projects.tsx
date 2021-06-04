@@ -8,7 +8,7 @@ import {
   faHandPointer,
   faRunning,
 } from "@fortawesome/free-solid-svg-icons";
-import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
+import { faSlack, faBitcoin } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = () => {
   const [expand, makeExpand] = useState<string>("");
@@ -19,6 +19,53 @@ const Projects = () => {
 
   return (
     <div className="project-body">
+      <div
+        className={expand === "slack" ? "card expanded" : "card"}
+        onClick={() => onExpand("slack")}
+      >
+        <FontAwesomeIcon
+          size="9x"
+          color="#fff"
+          style={{ padding: "1rem" }}
+          icon={faSlack}
+        />
+        <h1 className="project-header">Slack Copy</h1>
+        <div className="text1">
+          <div className="text-content">
+            <h1 className="title">
+              Web Application
+              <br />
+              React/Javascript/Firebase
+            </h1>
+
+            <div className="body-text">
+              SlackCopy is a fully functional React/JavaScript application for
+              developers to communicate. It is connected to Firebase when all
+              the messages and images are stored. The design is based on Styled
+              Components. State is managed by Redux and navigation by
+              React-Router. <br />
+              <br /> Chat is working in real-time. You can see notifications
+              about unread messages, upload images and send them to others. For
+              now SlackCopy is designed for desktop only.
+              <a
+                className="project-link"
+                target="_blank"
+                rel="noreferrer"
+                href="https://slack-clone-jo.herokuapp.com/"
+              >
+                GO TO PROJECT
+              </a>
+              <FontAwesomeIcon
+                size="1x"
+                color="#fff"
+                icon={faHandPointer}
+                style={{ marginTop: "-10px" }}
+              />
+            </div>
+          </div>
+        </div>
+        <Arrow />
+      </div>
       <div
         className={expand === "memory" ? "card expanded" : "card"}
         onClick={() => onExpand("memory")}
@@ -74,7 +121,11 @@ const Projects = () => {
         <h1 className="project-header">Forest Run</h1>
         <div className="text1">
           <div className="text-content">
-            <h1 className="title">Web Application</h1>
+            <h1 className="title">
+              Web Application
+              <br />
+              React/Typescript/GraphQL
+            </h1>
             <div className="body-text">
               Forest Run is a fully functional React/Typescript application for
               runners in London It uses Apollo Client to communicate with the

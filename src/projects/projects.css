@@ -17,7 +17,7 @@
 }
 
 .card {
-  background: teal;
+  background: black;
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   cursor: pointer;
@@ -29,10 +29,11 @@
   text-align: center;
   transition: height 800ms;
   width: 320px;
+  opacity: 0.7;
 }
 
 .card.expanded {
-  height: 620px;
+  height: 600px;
 }
 .label {
   margin-top: 30px;

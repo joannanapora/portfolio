@@ -22,17 +22,18 @@ const About = () => {
           <br />
           I have been programming for about 10 months now and I don't slow down
           for a minute. I am a self-taught programmer and huge React fan so I
-          spent my time mainly increasing the knowledge of React, JavaScript
+          spent my time mainly increasing my knowledge of React, JavaScript
           and TypeScript, creating various projects, solving complex tasks and
-          taking Udemy courses on these topics. To broaden my general knowledge,
-          I take the Introduction to Computer Sience course by edx. Besides, I
-          can write unit and functional tests using Jest, Enzyme and React
+          taking Udemy courses on these topics. To broaden my general knowledge
+          I'm taking the Introduction to Computer Sience course by edx. Besides
+          I can write unit and functional tests using Jest, Enzyme and React
           Testing Library but also end to end tests in Selenium.
           <br />
           <br />
-          At this point, my goal and dream is to gain my first experience in the
-          IT industry, I am open to any form of learning through work, including
-          apprenticeships, internships and junior positions.
+          At this point, my goal is to gain my first commercial experience in
+          the IT industry, I am open to any form of learning through work,
+          including apprenticeships, internships and junior positions in
+          Manchester area or remote. Thank you for visiting my website!
         </p>
         <div className="btn-cont">
           <Link to="resume.pdf" target="_blank" download>
@@ -91,7 +92,7 @@ const About = () => {
         data-testid="image"
         className="img-me"
         alt="Janna Napora"
-        src="https://scontent-lcy1-1.xx.fbcdn.net/v/t1.6435-9/70026149_2390413564340730_1361607901025665024_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=84a396&_nc_ohc=nyAsCWIHapgAX-n9AxI&_nc_ht=scontent-lcy1-1.xx&oh=da7fc87c5c00b979861c239bbbeb7850&oe=60AE3048"
+        src="https://i.ibb.co/stL0KS9/Screenshot-2021-06-04-at-11-49-11.png"
       ></img>
     </div>
   );
