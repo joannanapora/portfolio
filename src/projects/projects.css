@@ -36,7 +36,7 @@
   height: 640px;
 }
 .label {
-  margin-top: 30px;
+  margin-top: 20px;
   transform: translateY(10px);
   transition: transform 800ms;
 }
@@ -75,12 +75,12 @@
   font-weight: 700;
   margin: 40px 0 12px;
   color: white;
-  font-size: 2vh;
+  font-size: 12px;
 }
 .body-text {
   padding: 0 20px;
   color: white;
-  font-size: 1.5vh;
+  font-size: 12px;
 }
 
 .body-text p {
@@ -93,7 +93,7 @@
 }
 
 .project-header {
-  font-size: 2rem;
+  font-size: 15px;
   color: white;
 }
 
@@ -102,7 +102,7 @@
   color: white;
   padding: 1.5rem 1rem 0 1rem;
   display: flex;
-  font-size: 1.7vh;
+  font-size: 10px;
   justify-content: center;
 }
 
