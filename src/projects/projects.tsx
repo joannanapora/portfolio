@@ -19,10 +19,7 @@ const Projects = () => {
 
   return (
     <div className="project-body">
-      <div
-        className={expand === "slack" ? "card expanded" : "card"}
-        onClick={() => onExpand("slack")}
-      >
+      <div className="card expanded" onClick={() => onExpand("slack")}>
         <FontAwesomeIcon
           size="9x"
           color="#fff"
@@ -66,10 +63,7 @@ const Projects = () => {
         </div>
         <Arrow />
       </div>
-      <div
-        className={expand === "memory" ? "card expanded" : "card"}
-        onClick={() => onExpand("memory")}
-      >
+      <div className="card expanded" onClick={() => onExpand("memory")}>
         <FontAwesomeIcon
           size="9x"
           color="#fff"
@@ -108,10 +102,7 @@ const Projects = () => {
         </div>
         <Arrow />
       </div>
-      <div
-        className={expand === "api" ? "card expanded" : "card"}
-        onClick={() => onExpand("api")}
-      >
+      <div className="card expanded" onClick={() => onExpand("api")}>
         <FontAwesomeIcon
           size="9x"
           color="#fff"
@@ -154,10 +145,7 @@ const Projects = () => {
         </div>
         <Arrow />
       </div>
-      <div
-        className={expand === "online-shop" ? "card expanded" : "card"}
-        onClick={() => onExpand("online-shop")}
-      >
+      <div className="card expanded" onClick={() => onExpand("online-shop")}>
         <FontAwesomeIcon
           size="9x"
           color="#fff"
@@ -192,10 +180,7 @@ const Projects = () => {
         </div>
         <Arrow />
       </div>
-      <div
-        className={expand === "sudoku" ? "card expanded" : "card"}
-        onClick={() => onExpand("sudoku")}
-      >
+      <div className="card expanded" onClick={() => onExpand("sudoku")}>
         <FontAwesomeIcon
           size="9x"
           color="#fff"
