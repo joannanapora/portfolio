@@ -7,6 +7,7 @@
   font-size: 1.3rem;
   top: 0;
   z-index: 1000;
+  margin-bottom: 2rem;
 }
 
 .navbar-scrolled {
@@ -50,7 +51,6 @@
 }
 
 .nav-links:hover {
-  border-bottom: 2px solid rgba(155, 205, 212, 255);
   transition: all 0.2s ease-out;
 }
 

@@ -7,19 +7,56 @@ import {
   faPenSquare,
   faHandPointer,
   faRunning,
+  faShoppingCart
 } from "@fortawesome/free-solid-svg-icons";
 import { faSlack, faBitcoin } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = () => {
-  const [expand, makeExpand] = useState<string>("");
-
-  const onExpand = (name: string) => {
-    makeExpand(name);
-  };
 
   return (
     <div className="project-body">
-      <div className="card expanded" onClick={() => onExpand("slack")}>
+        <div className="card">
+        <FontAwesomeIcon
+          size="9x"
+          color="#fff"
+          style={{ padding: "1rem" }}
+          icon={faShoppingCart}
+        />
+        <h1 className="project-header">Online Shop</h1>
+        <div className="text1">
+          <div className="text-content">
+            <h1 className="title">
+              Web Application
+              <br />
+              React/Javascript/Firebase/SASS
+            </h1>
+
+            <div className="body-text">
+              Plants Shop is a fully functional React/JavaScript app based on SASS styles. 
+              Firebase is handling authentication. Stripe is used for handling payments. 
+              State is managed by Redux and navigation by React-Router.
+              The website is fully responsive.
+              <br />
+              <br /> 
+              <a
+                className="project-link"
+                target="_blank"
+                rel="noreferrer"
+                href="https://plantshop-jo.herokuapp.com/"
+              >
+                GO TO PROJECT
+              </a>
+              <FontAwesomeIcon
+                size="1x"
+                color="#fff"
+                icon={faHandPointer}
+                style={{ marginTop: "-10px" }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+       <div className="card">
         <FontAwesomeIcon
           size="9x"
           color="#fff"
@@ -41,9 +78,7 @@ const Projects = () => {
               the messages and images are stored. The design is based on Styled
               Components. State is managed by Redux and navigation by
               React-Router. <br />
-              <br /> Chat is working in real-time. You can see notifications
-              about unread messages, upload images and send them to others. For
-              now SlackCopy is designed for desktop only.
+              <br /> 
               <a
                 className="project-link"
                 target="_blank"
@@ -61,9 +96,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <Arrow />
       </div>
-      <div className="card expanded" onClick={() => onExpand("memory")}>
+      <div className="card">
         <FontAwesomeIcon
           size="9x"
           color="#fff"
@@ -100,9 +134,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <Arrow />
       </div>
-      <div className="card expanded" onClick={() => onExpand("api")}>
+      <div className="card">
         <FontAwesomeIcon
           size="9x"
           color="#fff"
@@ -119,13 +152,9 @@ const Projects = () => {
             </h1>
             <div className="body-text">
               Forest Run is a fully functional React/Typescript application for
-              runners in London It uses Apollo Client to communicate with the
-              GraphQL server. The design is based on Material-UI css library.
-              State is managed by Redux and navigation by React-Router. <br />
-              <br /> There are functions like: log in/sign in, change between
-              light and dark modes, creating event cards, writing articles,
-              joining and leaving specific events, filtering events and
-              articles, donating the website (using Stripe).
+              runners in London, it uses Apollo Client to communicate with the
+              GraphQL server. The design is based on Material-UI. State is managed by Redux and navigation by React-Router. <br />
+              <br />
               <a
                 className="project-link"
                 target="_blank"
@@ -143,9 +172,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <Arrow />
       </div>
-      <div className="card expanded" onClick={() => onExpand("online-shop")}>
+      <div className="card">
         <FontAwesomeIcon
           size="9x"
           color="#fff"
@@ -178,9 +206,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <Arrow />
       </div>
-      <div className="card expanded" onClick={() => onExpand("sudoku")}>
+      <div className="card">
         <FontAwesomeIcon
           size="9x"
           color="#fff"
@@ -192,7 +219,7 @@ const Projects = () => {
           <div className="text-content">
             <h1 className="title">React/Typescript</h1>
             <div className="body-text">
-              Cointify is a React/Typescript application (still in progress) for
+              Cointify is a React/Typescript app for
               everyone who is interested in cryptocurrencies. It uses Axios to
               send GET requests to Rest API provided by CoinGecko.com to display
               current values of the coins. The design is based on Material-UI
@@ -216,7 +243,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <Arrow />
       </div>
     </div>
   );
