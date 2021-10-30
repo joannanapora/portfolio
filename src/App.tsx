@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./home/home";
 import Projects from "./projects/projects";
 import About from "./about/about";
+import Blog from "./blog/blog"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
+          <Route path="/blog" component={Blog} />
           <Route path="/projects" component={Projects} />
         </Switch>
       </BrowserRouter>

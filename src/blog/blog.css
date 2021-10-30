@@ -1,0 +1,27 @@
+
+
+.titleanddate {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 1rem;
+}
+
+.blog-paragraph {
+  color: white;
+  padding: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(10, 34, 47);
+}
+
+.blog-paragraph p {
+  padding: 1rem 3rem;
+  margin: 1rem;
+  font-size: 1.4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.post-container {
+  padding: 3rem 0;
+}
