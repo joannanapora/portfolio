@@ -106,8 +106,8 @@ export const Post2 = () => {
   return (
     <div className="post-container">
       <div className="titleanddate">
-        <h1>Second Title</h1>
-        <h1>2. October 2021, Manchester</h1>
+        <h1>A month later</h1>
+        <h1>1. November 2021, Manchester</h1>
       </div>
       <div className="blog-paragraph">
         <h1 className="blog-header">Hi again!</h1>
@@ -183,6 +183,7 @@ export const Post2 = () => {
         </p>
         </div>
         <p>
+        Besides, when working on new tasks I try to implement typescript, rewrite most jsx files.
         I have to say that working in the backend is a challenge for me, but I am very happy that, despite the front-end role, I have the opportunity to develop in it.
         </p>
         <div className="titleanddate">
