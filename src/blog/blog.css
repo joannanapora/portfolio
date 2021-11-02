@@ -1,6 +1,25 @@
-
-
 .titleanddate {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .titleanddate {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .header-post {
+    font-size: 0.5rem;
+    justify-content: space-between;
+  }
+}
+
+.header-post {
   justify-content: space-between;
   width: 100%;
   display: flex;
@@ -11,7 +30,7 @@
 .blog-paragraph {
   color: white;
   padding: 1rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: sans-serif;
   background-color: rgb(10, 34, 47);
 }
 
@@ -19,7 +38,14 @@
   padding: 1rem 3rem;
   margin: 1rem;
   font-size: 1.4rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-paragraph p {
+    padding: 0;
+    font-size: 1rem;
+  }
 }
 
 .post-container {

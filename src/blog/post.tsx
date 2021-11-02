@@ -11,7 +11,7 @@ import node from "../assets/Node-js.jpg";
 export const Post1 = () => {
   return (
     <div className="post-container">
-      <div className="titleanddate">
+      <div className="header-post">
         <h1>New Role</h1>
         <h1>2. October 2021, Manchester</h1>
       </div>
@@ -105,8 +105,8 @@ export const Post1 = () => {
 export const Post2 = () => {
   return (
     <div className="post-container">
-      <div className="titleanddate">
-        <h1>A month later</h1>
+      <div className="header-post">
+        <h1>After 2 months</h1>
         <h1>1. November 2021, Manchester</h1>
       </div>
       <div className="blog-paragraph">
@@ -126,22 +126,15 @@ export const Post2 = () => {
           <p>
             I will start with the fact that I started working on a new React
             project for which I will create a mobile application in React
-            Native. You can see my progress here:
-            <br />
-            <br />
-            <a
-              target="_blank"
-              style={{ textDecoration: "none", color: "yellow" }}
-              href="https://github.com/joannanapora/giveaway"
-            >
-              https://github.com/joannanapora/giveaway
-            </a>
+            Native.
             <br />
             <br />
             The idea for the applications was born in mid-October, so far only a
-            small part of the frontend and logging in are done. As I said in previous post - I decided to style my new app with Tailwind CSS.
-            I plan to focus on this project and improve it every weekend. I will discuss more
-            details in the December post.
+            small part of the frontend and logging in are done. As I said in
+            previous post - I decided to style my new app with Tailwind CSS. I
+            plan to focus on this project and improve it every weekend. I will
+            discuss more details in the December post and share my progress with
+            you.
           </p>
         </div>
         <div className="titleanddate">
@@ -166,29 +159,34 @@ export const Post2 = () => {
           />
         </div>
         <div className="titleanddate">
-        <img
-          alt="hello"
-          style={{ display: "flex", justifyContent: "center", padding: "2rem" }}
-          width='50%'
-          height='50%'
-          src={node}
-        />
-        <p>
-          This month I was also working on a big task that required me to work
-          as much in the front end as in the backend. I was working on
-          generating PDF files in NodeJS, I implemented the endpoint and all
-          logic for storing data and the file itself. In the frontend, I added a
-          redux state along with state transition from generate, load and
-          download. 
-        </p>
+          <img
+            alt="hello"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              padding: "2rem",
+            }}
+            width="50%"
+            height="50%"
+            src={node}
+          />
+          <p>
+            This month I was also working on a big task that required me to work
+            as much in the front end as in the backend. I was working on
+            generating PDF files in NodeJS, I implemented the endpoint and all
+            logic for storing data and the file itself. In the frontend, I added
+            a redux state along with state transition from generate, load and
+            download.
+          </p>
         </div>
         <p>
-        Besides, when working on new tasks I try to implement typescript, rewrite most jsx files.
-        I have to say that working in the backend is a challenge for me, but I am very happy that, despite the front-end role, I have the opportunity to develop in it.
+          Besides, when working on new tasks I try to implement typescript,
+          rewrite most jsx files. I have to say that working in the backend is a
+          challenge for me, but I am very happy that, despite the front-end
+          role, I have the opportunity to develop in it.
         </p>
         <div className="titleanddate">
-          <p>
-  See you in December!</p>
+          <p>See you in December!</p>
         </div>
       </div>
     </div>
