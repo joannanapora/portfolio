@@ -7,6 +7,10 @@ import reacthook from "../assets/react-hook-form.jpg";
 import welcomeback from "../assets/welcomeback.gif";
 import lr from "../assets/lr.jpg";
 import node from "../assets/Node-js.jpg";
+import mandril from "../assets/mandrill.jpeg";
+import mysql from "../assets/mysqll.jpeg";
+import pdflib from "../assets/pdflib.jpg";
+import alpine from "../assets/alpine.jpeg";
 
 export const Post1 = () => {
   return (
@@ -187,6 +191,125 @@ export const Post2 = () => {
         </p>
         <div className="titleanddate">
           <p>See you in December!</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const Post3 = () => {
+  return (
+    <div className="post-container">
+      <div className="header-post">
+        <h1>5 months behind me</h1>
+        <h1>4. February 2022, Manchester</h1>
+      </div>
+      <div className="blog-paragraph">
+        <h1 className="blog-header">Hello People!</h1>
+        <p>
+          {" "}
+          Hello Everyone! I delayed writing the post because I went to my family
+          home for Christmas. November was a very busy month in which a lot was
+          going on and in which I did many things for the first time. 3 of the 6
+          months of my probationary period passed on the last day of November.
+        </p>
+        <div className="titleanddate">
+          <img
+            alt="hello"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              padding: "1rem",
+            }}
+            width="40%"
+            height="40%"
+            src={mandril}
+          />
+          <p>
+            At the beginning of the month I had the opportunity to work with a
+            mandrill which is a delivery API for the MailChimp email platform
+            that is used to send data-driven emails. My task was to create an
+            e-mail template to which the entered data was inserted, and then
+            send it to a specific e-mail address.
+          </p>
+        </div>
+        <div className="titleanddate">
+          <p>
+            In the middle of a month I was working on a very nice tool that
+            required me to work with three databases at the same time. I was
+            working in project created with NodeJS so I was using pure
+            JavaScript and little bit of jQuery to write all the views and
+            functionalities. I was writing SELECT queries in both MySQL and
+            PostgreSQL and INSERT queries to save data in new column. To
+            interact with PostgreSQL database I was using DBeaver which is a SQL
+            client software application and a database administration tool. I
+            had very little contact with databases before so it was challenging
+            and very rewarding.
+          </p>
+          <img
+            alt="hello"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              padding: "1rem",
+            }}
+            width="50%"
+            height="50%"
+            src={mysql}
+          />
+        </div>
+        <div className="titleanddate">
+          <img
+            alt="hello"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              padding: "2rem",
+            }}
+            width="50%"
+            height="50%"
+            src={pdflib}
+          />
+          <p>
+            At the end of November I got a task to create a pdf template on
+            which the photo added by the user and his data are displayed. All
+            elements had to be added dynamically, ensuring that the photo does
+            not exceed dimensions and has good quality. The file is then saved
+            to the backend in the ID Card format. I used the PDF-lib library for
+            this which provides a lot of functions
+          </p>
+        </div>
+        <p>
+          I didn’t work much in December so lets skip to January.First half of
+          the month I was working on rebuilding our main page. My task was to
+          remove all implemented jQuery and replace it where possible with
+          JavaScript and AlpineJS. I’m new to Alpine js but after few days with
+          this framework I could say its really really simple and helpful when
+          you just need to handle small amount of animations. Due to the greater
+          number of other tasks, I had to give up the task for a while, but I
+          may be able to come back with yet another approach.
+        </p>
+        <div className="titleanddate">
+          <img
+            alt="hello"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              padding: "2rem",
+            }}
+            width="50%"
+            height="50%"
+            src={alpine}
+          />
+          <p>
+            Recently, I work a lot with forms, using code that already exists,
+            but I also have the opportunity to prove myself in creating
+            something completely new for specific requirements.See you in March
+            people!
+          </p>
+        </div>
+        <div className="titleanddate">
+          <p>See you in March!</p>
         </div>
       </div>
     </div>
