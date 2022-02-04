@@ -201,17 +201,17 @@ export const Post3 = () => {
   return (
     <div className="post-container">
       <div className="header-post">
-        <h1>5 months behind me</h1>
+        <h1>It s been 5 months</h1>
         <h1>4. February 2022, Manchester</h1>
       </div>
       <div className="blog-paragraph">
         <h1 className="blog-header">Hello People!</h1>
         <p>
           {" "}
-          Hello Everyone! I delayed writing the post because I went to my family
-          home for Christmas. November was a very busy month in which a lot was
-          going on and in which I did many things for the first time. 3 of the 6
-          months of my probationary period passed on the last day of November.
+          I delayed writing the post because I went to my family home for
+          Christmas. November was a very busy month in which a lot was going on
+          and in which I did many things for the first time. 3 of the 6 months
+          of my probationary period passed on the last day of November.
         </p>
         <div className="titleanddate">
           <img
@@ -280,7 +280,7 @@ export const Post3 = () => {
           </p>
         </div>
         <p>
-          I didn’t work much in December so lets skip to January.First half of
+          I didn’t work much in December so lets skip to January. First half of
           the month I was working on rebuilding our main page. My task was to
           remove all implemented jQuery and replace it where possible with
           JavaScript and AlpineJS. I’m new to Alpine js but after few days with
@@ -304,8 +304,7 @@ export const Post3 = () => {
           <p>
             Recently, I work a lot with forms, using code that already exists,
             but I also have the opportunity to prove myself in creating
-            something completely new for specific requirements.See you in March
-            people!
+            something completely new for specific requirements.
           </p>
         </div>
         <div className="titleanddate">
