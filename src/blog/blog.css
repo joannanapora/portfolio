@@ -31,14 +31,16 @@
   color: white;
   padding: 1rem;
   font-family: sans-serif;
-  background-color: rgb(10, 34, 47);
 }
 
 .blog-paragraph p {
   padding: 1rem 3rem;
   margin: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: sans-serif;
+  display: flex;
+  height: 100%;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -49,5 +51,9 @@
 }
 
 .post-container {
-  padding: 3rem 0;
+  padding: 1rem;
+  border: 2px solid rgb(230, 226, 221);
+  border-radius: 1%;
+  background-color: rgb(10, 34, 47);
+  margin: 1rem 0;
 }

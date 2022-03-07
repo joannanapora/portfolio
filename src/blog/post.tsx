@@ -11,6 +11,9 @@ import mandril from "../assets/mandrill.jpeg";
 import mysql from "../assets/mysqll.jpeg";
 import pdflib from "../assets/pdflib.jpg";
 import alpine from "../assets/alpine.jpeg";
+import full from "../assets/full.jpg";
+import next from "../assets/next.png";
+import testing from "../assets/testing.jpg";
 
 export const Post1 = () => {
   return (
@@ -20,7 +23,6 @@ export const Post1 = () => {
         <h1>2. October 2021, Manchester</h1>
       </div>
       <div className="blog-paragraph">
-        <h1 className="blog-header">Hello Everyone!</h1>
         <div className="titleanddate">
           <img
             alt="hello"
@@ -34,6 +36,8 @@ export const Post1 = () => {
             src={newhere}
           />
           <p>
+            Hello Everyone!
+            <br/>
             During this month, I got to know all the rules of the daily stand
             up, sprint review and general organization of work on software
             implementation.From week to week, I learned more and more about the
@@ -114,7 +118,6 @@ export const Post2 = () => {
         <h1>1. November 2021, Manchester</h1>
       </div>
       <div className="blog-paragraph">
-        <h1 className="blog-header">Hi again!</h1>
         <div className="titleanddate">
           <img
             alt="hello"
@@ -201,11 +204,10 @@ export const Post3 = () => {
   return (
     <div className="post-container">
       <div className="header-post">
-        <h1>It s been 5 months</h1>
+        <h1>5 months</h1>
         <h1>4. February 2022, Manchester</h1>
       </div>
       <div className="blog-paragraph">
-        <h1 className="blog-header">Hello People!</h1>
         <p>
           {" "}
           I delayed writing the post because I went to my family home for
@@ -305,10 +307,89 @@ export const Post3 = () => {
             Recently, I work a lot with forms, using code that already exists,
             but I also have the opportunity to prove myself in creating
             something completely new for specific requirements.
+            <br/>
+            <br/>
+            See you in March!
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const Post4 = () => {
+  return (
+    <div className="post-container">
+      <div className="header-post">
+        <h1>Fullstack!</h1>
+        <h1>7. March 2022, Manchester</h1>
+      </div>
+      <div className="blog-paragraph">
+        <div className="titleanddate">
+          <img
+            alt="hello"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              padding: "1rem",
+            }}
+            width="50%"
+            height="50%"
+            src={full}
+          />
+          <p>
+            I have great news, my probationary period at work ended on March 1.
+            My contract has been extended and from the position of Junior
+            Frontend Developer I have become Junior Full Stack Developer!
+            <br/>  <br/> 
+            I am so excited and looking forward to what the next months will bring!
           </p>
         </div>
         <div className="titleanddate">
-          <p>See you in March!</p>
+          <p>
+            As I mentioned in the last post, I was working on the modernization
+            of our main site. I really wanted to change the approach to the task
+            and, fortunately, I received a green light to rewrite the website
+            for job search in Reat, using the NEXT.js.
+            <br />
+            <br />I had very little to do with this framework, but it is
+            definitely the best framework that could be chosen due to my
+            experience with react, but also due to server side rendering. I got
+            acquainted with the rules of next js very quickly and the work was
+            very rewarding.
+          </p>
+          <img
+            alt="hello"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              padding: "1rem",
+              marginTop: "4rem",
+            }}
+            width="40%"
+            height="40%"
+            src={next}
+          />
+        </div>
+        <div className="titleanddate">
+          <img
+            alt="hello"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              padding: "2rem",
+            }}
+            width="30%"
+            height="30%"
+            src={testing}
+          />
+          <p>
+            Besides, I am constantly learning backend stuff, writing tests for
+            private projects and I try to spend some free time on programming!
+            <br />
+            <br />
+            See you in April!
+          </p>
         </div>
       </div>
     </div>
