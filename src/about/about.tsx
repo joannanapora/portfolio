@@ -16,23 +16,23 @@ const About = () => {
       <div className="img-info">
         <h1>Hello!</h1>
         <p>
-          My name is Joanna. I'm 27 years old. I live in Manchester.
+          My name is Joanna. I'm 28 and I live in
+          Manchester.
           <br />
           <br />
-          I have been programming for about 10 months now and I don't slow down
-          for a minute. I am a self-taught programmer and huge React fan so I
-          spent my time mainly increasing my knowledge of React, JavaScript
-          and TypeScript, creating various projects, solving complex tasks and
-          taking Udemy courses on these topics. To broaden my general knowledge
-          I'm taking the Introduction to Computer Sience course by edx. Besides
-          I can write unit and functional tests using Jest, Enzyme and React
-          Testing Library but also end to end tests in Selenium.
+          I have been programming for about 1,5 year now. I am a self-taught
+          programmer and huge React fan so I spent my time mainly increasing my
+          knowledge of React, JavaScript and Node.js, creating personal
+          projects, solving complex tasks and taking Udemy courses on these
+          topics.
           <br />
           <br />
-          At this point, my goal is to gain my first commercial experience in
-          the IT industry, I am open to any form of learning through work,
-          including apprenticeships, internships and junior positions in
-          Manchester area or remote. Thank you for visiting my website!
+          From 1st of September 2021 I have worked as a Junior Frontend Developer for one of the UK’s
+          leading recruitment agencies.
+          On 1st of March 2022 I have been promoted to Junior Fullstack Developer position in the very same company.
+          <br/>
+          <br/>  
+I run a blog in which I write about everything I do at work, I encourage you to take a look! :)
         </p>
         <div className="btn-cont">
           <Link to="resume.pdf" target="_blank" download>
